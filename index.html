@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Technical Documentation Page</title>
+  <link rel="stylesheet" href="./styles.css"/>
+  </head>
+  <body>
+    <main id="main-doc">
+
+    <nav id="navbar">
+      <header>GitHub Documentation</header>
+      <ul>
+        <li>
+      <a href="#introduction" class="nav-link">Introduction</a>
+        </li>     
+        <li>
+      <a href="#getting_started" class="nav-link">Getting Started</a>
+        </li>     
+        <li>
+      <a href="#basics_of_version_control" class="nav-link">Basics of Version Control</a>
+        </li>     
+        <li>
+      <a href="#collaboration_on_github" class="nav-link">Collaboration on GitHub</a>
+        </li>     
+        <li>
+      <a href="#advanced_github_features" class="nav-link">Advanced GitHub Features</a>
+        </li>     
+      </ul>
+    </nav>
+
+      <section class="main-section" id="introduction">
+        <header id="introduction">Introduction</header>
+        <p>GitHub is a web-based platform for version control and collaboration that empowers software developers and teams to manage their code repositories efficiently.</p> 
+        <p>This documentation provides a comprehensive guide to using GitHub's key features and best practices for effective collaboration.</p>
+        <ul>
+          <li>GitHub uses Git, a distributed version control system, to allow users to track changes in their codebase. Developers can work on projects collaboratively while keeping track of changes, branching for different features, and m</li>      
+          <li>GitHub provides a secure and convenient place to host code repositories. Developers can create repositories to store and manage their code, making it accessible from anywhere with an internet connection.</li>
+          <li>GitHub is designed for team collaboration. It offers features like pull requests, issue tracking, and code review tools that facilitate collaboration among developers, making it easier to work on projects together, review code changes, and provide feedback.</li>
+        </ul>      
+      </section>
+
+      <section class="main-section" id="getting_started">
+        <header id="getting_started">Getting Started</header>
+        <p>GitHub is home to a vast open-source community. Many open-source projects are hosted on GitHub, making it a hub for collaboration and contribution to a wide range of software projects.</p>
+        <ul>
+          <li>Sign Up and Account Setup</li>
+          <li>Installing Git</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="basics_of_version_control">
+        <header id="basics_of_version_control">Basics of Version Control</header>
+        <p>A repository is like a folder for your project. You can have any number of public and private repositories in your personal account. Repositories can contain folders and files, images, videos, spreadsheets, and data sets, as well as the revision history for all files in the repository.</p>
+        <p>Initialize a local Git repository</p>
+        <code>git init</code>
+        <p>Create a local copy of a remote repository</p>
+        <code>git clone ssh://git@github.com/[username]/[repository-name].git</code>
+      </section>
+
+      <section class="main-section" id="collaboration_on_github">
+        <header id="collaboration_on_github">Collaboration on GitHub</header>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+          doloremque nulla, at officiis numquam deserunt quidem fugit ad
+          quibusdam consequuntur voluptatum officia cumque quos placeat aperiam
+          corrupti optio debitis. Facere?</p>
+        <code>git log</code>
+        <p>View changes (detailed)</p>
+        <code>git log --summary</code>
+      </section>
+
+      <section class="main-section" id="advanced_github_features">
+        <header id="advanced_github_features">Advanced GitHub Features</header>            
+        <p>Add a remote repository</p>
+        <code>git remote add origin ssh://git@github.com/[username]/[repository-name].git</code>
+        <p>Set a repository's origin branch to SSH</p>
+        <code>git remote set-url origin ssh://git@github.com/[username]/[repository-name].git</code>
+      </section>
+    </main>
+  </body>
+  </html>
